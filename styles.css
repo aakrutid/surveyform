@@ -1,0 +1,10 @@
+h1 { 
+    font-family:impact;
+  background:linear-gradient(80deg,green, yellow, blue, yellow);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;`
+  }
+  
+  div{
+    background:linear-gradient(30deg, red, blue, green);
+  }
