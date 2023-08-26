@@ -1,0 +1,50 @@
+<DOCTYPE!html>
+<html lang="en">
+  <link rel="stylesheet" href="styles.css">
+  <head>
+    <h1 id="title">Aakruti's Survey Form</h1>
+  </head>
+  <body>
+    <p id="description">This is Aakruti's form.</p>
+    <div>
+    <form id="survey-form" action="https://www.puzzl.app/">
+      <fieldset>
+        <label id="name-label">What is your name?<input id="name" type="text"placeholder="Aakruti Desai" required/></label>
+      </fieldset>
+      <fieldset>
+        <label id="email-label">What is your email?<input id="email" type="email" placeholder="aakruti@gmail.com" required/></label>
+      </fieldset>
+      <fieldset class = "box-box">
+        <label id="number-label">What is your favorite number between 13 and 120?<input id="number" type="number" min="13" max="120"placeholder="13"required/></label>
+      </fieldset>
+      <fieldset>
+        <label>What is your favorite flavor?
+          <select id="dropdown" checked>
+          <option>Chocolate</option>
+          <option>Vanilla</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Do you like music?
+          <input type="radio" name="music" value="yes" checked> Yes
+          <input type="radio" name="music"value="no"> No
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Select all that apply.
+          <input type="checkbox" value="happy">Happy
+          <input type="checkbox" value="sexy">Sexy
+          <input type="checkbox" value="awesome">Awesome
+        </label>
+      </fieldset>
+      <fieldset>
+        <label>Additional comments?
+          <textarea rows="3" cols="15"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </div>
+    </form>
+  </body>
+</html>
